@@ -1,0 +1,20 @@
+{
+  "name": "cold-start",
+  "interface": {
+    "displayName": "Cold Start"
+  },
+  "plugins": [
+    {
+      "name": "cold-start",
+      "source": {
+        "source": "local",
+        "path": "./plugins/cold-start"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

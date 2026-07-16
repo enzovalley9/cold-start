@@ -1,0 +1,15 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "cold-start",
+  "description": "A portable agent skill for evidence-based repository onboarding.",
+  "owner": {
+    "name": "Community Maintainers"
+  },
+  "plugins": [
+    {
+      "name": "cold-start",
+      "source": "./plugins/cold-start",
+      "description": "Build a fast, evidence-based map of an unfamiliar repository before making changes."
+    }
+  ]
+}

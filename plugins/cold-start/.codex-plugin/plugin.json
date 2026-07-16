@@ -1,0 +1,34 @@
+{
+  "name": "cold-start",
+  "version": "0.1.0",
+  "description": "Build a fast, evidence-based map of an unfamiliar repository before making changes.",
+  "author": {
+    "name": "Community Maintainers"
+  },
+  "license": "MIT",
+  "keywords": [
+    "repository",
+    "onboarding",
+    "codebase",
+    "context",
+    "developer-tools"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Cold Start",
+    "shortDescription": "Map an unfamiliar repo before editing",
+    "longDescription": "Inspects entry points, recent changes, layout, documentation, and conventions to produce a compact repository briefing before implementation begins.",
+    "developerName": "Community Maintainers",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Give me a cold start for this repository.",
+      "Map this codebase before we make changes.",
+      "Summarize the entry points, layout, and conventions here."
+    ],
+    "brandColor": "#7C3AED"
+  }
+}

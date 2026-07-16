@@ -1,0 +1,23 @@
+{
+  "skill_name": "cold-start",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I have never worked in this monorepo. Before changing the billing API, map the entry points, relevant package instructions, checks, and recent activity.",
+      "expected_output": "A concise read-only briefing that respects local changes and distinguishes root from package-level conventions.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I am back in this Python service after six months. Put me up to speed before we touch the queue consumer.",
+      "expected_output": "A compact map based on pyproject, source layout, tests, Git history, and documented conventions.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Explain what this one function does.",
+      "expected_output": "The skill should avoid a full repository cold start unless broader repository context is genuinely needed.",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cold Start"
+  short_description: "Map an unfamiliar repo before editing"
+  default_prompt: "Use $cold-start to map this repository before making changes."
